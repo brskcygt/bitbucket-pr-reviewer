@@ -1,0 +1,25 @@
+{
+  "name": "bitbucket-pr-reviewer",
+  "version": "1.0.0",
+  "description": "Automatic PR reviewer using Claude AI",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/claude-agent-sdk": "latest",
+    "@anthropic-ai/sdk": "^0.80.0",
+    "@types/dotenv": "^8.2.3",
+    "@types/express": "^5.0.6",
+    "axios": "^1.6.0",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  }
+}
